@@ -34,7 +34,7 @@ p{
 
 a{
   align-items: flex-end;
-  background-color: darkgrey;
+  background-color: #FAF3C8;
   margin-left: 20px;
   margin-bottom: 20px;
   padding: 10px 10px 10px 10px
@@ -42,7 +42,7 @@ a{
 
 .interactivity p{
   justify-content: space-between;
-  background-color: darkgrey;
+  background-color: #FAF3C8;
   margin-right: 20px;
   margin-bottom: 20px;
 }
