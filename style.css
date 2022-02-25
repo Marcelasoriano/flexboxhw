@@ -12,10 +12,12 @@
 
 h1{
   color:#CEC8FA;
+  font-family: monospace;
 }
 
 h2{
   color: #FFFCE6;
+  font-familt: monospace;
 }
 
 img{
@@ -58,6 +60,7 @@ a{
 .interactivity{
   flex-direction: row;
   justify-content: space-between;
+  font-family: monospace;
 }
 .interactivity--stats{
   flex-direction: column;
