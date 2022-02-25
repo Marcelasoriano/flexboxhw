@@ -57,7 +57,6 @@ to this section's matching END comment to see page-specific styles.
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
-  background: #FFFFFF;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -69,50 +68,15 @@ to this section's matching END comment to see page-specific styles.
 .btn--remix img {
   margin-right: 0.5rem;
 }
-.btn--remix:hover {
-  background-color: #D0FFF1;
-}
 
-/* Navigation grid */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem auto 0;
-  padding: 1rem 0 0.75rem 0;
-  width: 100%;
-  flex-wrap: wrap;
-  border-top: 4px solid #fff;
-}
 
-.footer a:not(.btn--remix):link,
-a:not(.btn--remix):visited {
-  font-family: HK Grotesk;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.1rem;
-  color: #000;
-  text-decoration: none;
-  border-style: none;
-}
-.footer a:hover {
-  background: var(--color-primary);
-}
-
-.footer .links {
-  padding: 0.5rem 1rem 1.5rem;
-  white-space: nowrap;
-}
-
-.divider {
-  padding: 0 1rem;
-}
 /******************************************************************************
 END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  font-family: HK Grotesk;
-  background-color: var(--color-bg);
+  font-family: Lucida Console;
+  background-image: linear-gradient(#8023CC,#A068A6,#8023CC);
 }
 
 /* Page structure */
@@ -175,10 +139,3 @@ h2 {
   transform: translateY(5px);
 }
 
-/* Button dip
-- Toggling this class on and off will move it down and up again
-- The button transition property above determines the speed of the translate (500ms)
-*/
-.dipped {
-  transform: translateY(5px);
-}
