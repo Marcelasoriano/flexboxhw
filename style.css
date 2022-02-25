@@ -74,7 +74,6 @@ END Glitch hello-app default styles
 ******************************************************************************/
 
 body {
-  
   font-family: Comic Sans;
   background-image: linear-gradient(#8023CC,#A068A6,#8023CC);
 }
@@ -92,7 +91,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 /* Very light scaling for our illustration */
 .title {
   color: #2800FF;
